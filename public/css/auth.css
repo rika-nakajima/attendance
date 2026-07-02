@@ -1,0 +1,104 @@
+/* ▼ 全体リセット */
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #000;
+    font-family: sans-serif;
+}
+
+/* ▼ ログイン前ヘッダー */
+.header {
+    width: 100%;
+    padding: 16px 24px;
+    box-sizing: border-box;
+}
+
+.header--guest {
+    background-color: #000;
+    border-bottom: 1px solid #333;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo img {
+    height: 40px;
+}
+
+/* ▼ ログイン・登録共通レイアウト */
+.login__container,
+.register__container {
+    width: 100%;
+    max-width: 360px;
+    margin: 80px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* ▼ タイトル */
+.login__title,
+.register__title {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+/* ▼ エラーメッセージ */
+.login__errors ul,
+.register__errors ul {
+    background: #ff4d4d;
+    color: #fff;
+    padding: 12px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+/* ▼ フォーム */
+.form__group {
+    margin-bottom: 20px;
+}
+
+.form__label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+/* ▼ 入力欄 */
+.form__input {
+    width: 100%;
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    border: 1px solid #000;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+/* ▼ ボタン */
+.form__button {
+    width: 100%;
+    padding: 12px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.form__button:hover {
+    opacity: 0.8;
+}
+
+/* ▼ リンク */
+.login__link a,
+.register__link a {
+    color: #007bff;
+    text-decoration: underline;
+    text-align: center ;
+}

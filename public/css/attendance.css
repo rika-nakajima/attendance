@@ -1,0 +1,294 @@
+/* ▼ 全体 */
+body {
+    margin: 0;
+    background-color: #fff;
+    color: #333;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+/* ▼ ヘッダー（ログイン後） */
+
+.header-auth {
+    background-color: #000;
+    padding: 12px 20px;
+}
+
+.header-auth__inner {
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    margin-left: 24px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+.header-auth__menu {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header-auth__nav {
+    margin-left: auto;
+}
+
+/* ▼ ステータス（大きいグレー枠） */
+.attendance__status-box {
+    background-color: #e9ecef;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px auto;
+    width: 200px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+/* ▼ 日付 */
+.attendance__date {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* ▼ 時刻 */
+.attendance__time {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0 30px;
+    text-align: center;
+}
+
+/* ▼ ボタン配置 */
+.attendance__actions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+/* ▼ 黒ボタン */
+.btn--black {
+    width: 220px;
+    padding: 16px 0;
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 18px;
+    border: none;
+}
+
+/* ▼ 白ボタン */
+.btn--white {
+    width: 220px;
+    padding: 16px 0;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+/* ▼ 勤怠画面の全体コンテナ（中央寄せ + 余白） */
+.attendance {
+    max-width: 480px;
+    margin: 60px auto;
+    /* 上下に余白、左右は中央寄せ */
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+/* 横並びにしたいとき用 */
+.attendance__actions--row {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* ▼ 勤怠一覧 全体 */
+.attendance-list {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* ▼ タイトル */
+.attendance-list__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* ▼ 白いカード（見本と同じ） */
+.month-card {
+    max-width: 900px;
+    margin: 0 auto 20px;
+    background: #ffffff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* ▼ 月切り替え（3カラム構成） */
+.month-selector {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ▼ 前月・翌月ボタン */
+.month-btn {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ▼ 真ん中（カレンダー + 月） */
+.month-center {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.calendar-icon {
+    width: 22px;
+    height: 22px;
+}
+
+.month-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ▼ ページ背景（薄いグレー） */
+body {
+    background: #f5f5f5;
+}
+
+/* ▼ テーブル */
+.attendance-list__table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    /* ← カードの白 */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.attendance-list__table th {
+    background: #ffffff;
+    /* ← 白に変更 */
+    padding: 14px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.attendance-list__table td {
+    padding: 14px 10px;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.attendance-list__table tr:last-child td {
+    border-bottom: none;
+}
+
+
+/* ▼ 詳細リンク */
+.detail-link {
+    color: #1a73e8;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.detail-link:hover {
+    color: #0b57d0;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+/* ▼ タイトル */
+.page-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* ▼ 承認タブ */
+.approval-tabs {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.approval-tabs .tab {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    text-decoration: none;
+    padding-bottom: 6px;
+    border-bottom: 2px solid transparent;
+}
+
+.approval-tabs .tab.active {
+    color: #1a73e8;
+    border-bottom: 2px solid #1a73e8;
+}
+
+/* ▼ 白いカード */
+.detail-card {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ▼ テーブル */
+.detail-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.detail-table th {
+    width: 30%;
+    background: #f5f5f5;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    font-weight: bold;
+}
+
+.detail-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* ▼ 修正ボタン */
+.detail-actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-edit {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #1a73e8;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}

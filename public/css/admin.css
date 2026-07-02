@@ -1,0 +1,625 @@
+/* ▼ ページ全体 */
+body {
+    background: #f5f5f5;
+    /* 薄いグレー背景 */
+}
+
+/* ▼ タイトル */
+.page-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* ▼ 白いカード */
+.staff-card {
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* ▼ テーブル */
+.staff-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.staff-table th {
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+    padding: 12px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.staff-table td {
+    border-bottom: 1px solid #eee;
+    padding: 12px;
+}
+
+/* ▼ 詳細リンク（黒文字） */
+.detail-link {
+    color: #000;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.detail-link:hover {
+    text-decoration: none;
+}
+
+/* ▼ 月カード */
+.month-card {
+    background: #fff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    max-width: 900px;
+    margin: 0 auto 20px;
+}
+
+/* ▼ 月切り替え */
+.month-selector {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.month-btn {
+    font-size: 16px;
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.arrow {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.month-center {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.calendar-icon {
+    width: 22px;
+    height: 22px;
+}
+
+.month-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ▼ CSV */
+.csv-area {
+    max-width: 900px;
+    margin: 0 auto 10px;
+    text-align: right;
+}
+
+.csv-btn {
+    background: #1a73e8;
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ▼ テーブル */
+.white-card {
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.attendance-table th {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.attendance-table td {
+    border-bottom: 1px solid #eee;
+    padding: 12px;
+}
+
+/* ▼ 詳細リンク（黒文字） */
+.detail-link {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* ▼ タイトル */
+.page-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* ▼ 承認タブ */
+.approval-tabs {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.approval-tabs .tab {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    text-decoration: none;
+    padding-bottom: 6px;
+    border-bottom: 2px solid transparent;
+}
+
+.approval-tabs .tab.active {
+    color: #1a73e8;
+    border-bottom: 2px solid #1a73e8;
+}
+
+/* ▼ 白いカード */
+.detail-card {
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* ▼ テーブル */
+.detail-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.detail-table th {
+    width: 30%;
+    background: #f5f5f5;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    font-weight: bold;
+}
+
+.detail-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* ▼ 下部リンク */
+.detail-actions {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.detail-link {
+    color: #000;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* ▼ タイトル */
+.page-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* ▼ 承認タブ */
+.approval-tabs {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.approval-tabs .tab {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    text-decoration: none;
+    padding-bottom: 6px;
+    border-bottom: 2px solid transparent;
+}
+
+.approval-tabs .tab.active {
+    color: #1a73e8;
+    border-bottom: 2px solid #1a73e8;
+}
+
+/* ▼ 白いカード */
+.white-card {
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* ▼ テーブル */
+.application-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.application-table th {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.application-table td {
+    border-bottom: 1px solid #eee;
+    padding: 12px;
+}
+
+/* ▼ 詳細リンク（黒文字） */
+.detail-link {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* ▼ タイトル */
+.page-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* ▼ 承認タブ */
+.approval-tabs {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.approval-tabs .tab {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    text-decoration: none;
+    padding-bottom: 6px;
+    border-bottom: 2px solid transparent;
+}
+
+.approval-tabs .tab.active {
+    color: #1a73e8;
+    border-bottom: 2px solid #1a73e8;
+}
+
+/* ▼ 白いカード */
+.detail-card {
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* ▼ テーブル */
+.detail-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.detail-table th {
+    width: 30%;
+    background: #f5f5f5;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    font-weight: bold;
+}
+
+.detail-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* ▼ 承認ボタン */
+.btn-approve {
+    background: #1a73e8;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.detail-actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ================================
+   管理者ログイン画面（位置修正）
+================================ */
+
+/* ▼ 全体背景 */
+.admin-login-body {
+    background: #f5f5f5;
+    /* 見本の薄いグレー */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ▼ ヘッダー（ロゴ左寄せ） */
+.admin-login-header {
+    background: #000;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.admin-login-header__inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+
+    display: flex;
+    justify-content: flex-start;
+    /* ← 左寄せ */
+    align-items: center;
+}
+
+.admin-login-logo {
+    height: 28px;
+    display: block;
+}
+
+/* ▼ カード中央配置 */
+.admin-login-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    /* ← 横中央 */
+    align-items: center;
+    /* ← 縦中央 */
+}
+
+/* ▼ カード本体 */
+.admin-login-card {
+    background: #ffffff;
+    width: 400px;
+    padding: 40px 45px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ▼ タイトル */
+.admin-login-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* ▼ フォーム */
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* ▼ ログインボタン */
+.admin-login-btn {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding: 12px 0;
+    border-radius: 6px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.admin-login-btn:hover {
+    background: #333;
+}
+
+
+
+/* ▼ ヘッダー全体 */
+/* ================================
+   管理者ヘッダー（完全版）
+================================ */
+.admin-header {
+    background-color: #000;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.admin-header__inner {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-header__logo img {
+    height: 28px;
+    display: block;
+}
+
+/* ナビゲーション */
+.admin-header__nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.admin-header__nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.admin-header__nav a:hover {
+    color: #007bff;
+}
+
+/* ログアウトボタン */
+.logout-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.logout-btn:hover {
+    color: #007bff;
+}
+
+/* ▼ メインコンテンツ */
+.admin-main {
+    padding: 30px;
+    background: #f5f5f5;
+    min-height: calc(100vh - 60px);
+}
+
+/* ▼ ダッシュボード全体 */
+.admin-dashboard-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* ▼ タイトル */
+.page-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* ▼ 白いカード */
+.dashboard-card {
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* ▼ メニューリスト */
+.dashboard-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dashboard-menu li {
+    margin-bottom: 15px;
+}
+
+/* ▼ メニューリンク（黒文字） */
+.menu-link {
+    color: #000;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.menu-link:hover {
+    text-decoration: none;
+}
+
+/* ================================
+   管理者ヘッダー（最強版・上書き防止）
+================================ */
+header.admin-header {
+    background-color: #000 !important;
+    height: 60px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+header.admin-header .admin-header__inner {
+    width: 100% !important;
+    max-width: 1100px !important;
+    margin: 0 auto !important;
+    padding: 0 24px !important;
+
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+header.admin-header .admin-header__logo img {
+    height: 28px !important;
+    display: block !important;
+}
+
+header.admin-header .admin-header__nav {
+    display: flex !important;
+    align-items: center !important;
+    gap: 32px !important;
+}
+
+header.admin-header .admin-header__nav a {
+    color: #fff !important;
+    text-decoration: none !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+
+header.admin-header .admin-header__nav a:hover {
+    color: #007bff !important;
+}
+
+header.admin-header .logout-btn {
+    background: none !important;
+    border: none !important;
+    color: #fff !important;
+    font-size: 14px !important;
+    cursor: pointer !important;
+    font-weight: 500 !important;
+}
+
+header.admin-header .logout-btn:hover {
+    color: #007bff !important;
+}

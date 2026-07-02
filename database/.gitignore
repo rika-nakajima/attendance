@@ -1,0 +1,59 @@
+*.sqlite*
+# Laravel default
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Laravel environment
+.env
+.env.backup
+.env.local
+.env.*.backup
+
+# Laravel cache & logs
+/storage/*.key
+/storage/app/public
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/views
+/storage/logs/*.log
+
+# Compiled files
+/public/storage
+/public/hot
+/public/build
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+docker-data/
+mysql-data/
+postgres-data/
+redis-data/
+
+# PHPUnit
+.phpunit.result.cache
+
+# Composer
+composer.lock
+
+# Node build
+/public/js/*
+/public/css/*
+/public/mix-manifest.json
+
+# Cache
+bootstrap/cache/*.php
+
+# Optional: if you use Sail
+vendor/bin/sail
